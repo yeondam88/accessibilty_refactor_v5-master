@@ -11,46 +11,48 @@
   <body>
     <div class="main-nav">
       <ul class="nav">
-        <li class="name"><a href="index.html">Accessible Frog</a></li>
+        <li class="name"><a href="#">Accessible Frog</a></li>
         <li><a href="tour.html">Tour</a></li>
         <li><a href="survey.html">Survey</a></li>
       </ul>
     </div>
 
-    <header>
-      <h1 class="name">accessible frog</h1>
-      <p class="tagline">we make awesome music</p>
+    <header role="banner">
+      <div class="header-text">
+        <h2>Accessible Frog</h2>
+        <p class="sub-header-text">we make awesome music</p>
+      </div>
     </header>
 
-    <main>
+    <main role="main">
       <div class="card">
         <div class="flex">
-          <img class="photo" src= "img/soul_of_the_frog.jpg" alt="album image">
+          <img class="photo" src= "img/soul_of_the_frog.jpg" alt="image of the album cover which is a frog on the ground">
           <div class="information">
-            <h1 class="heading">New album out now</h1>
+            <h1>New album out now</h1>
             <p>Soul of the Frog</p>
             <p>Digital/CD/ 2 x LP</p>
-            <a href="#" class="buy">Purchase Album</a>
+            <a href="#" class="purchase-btn">Purchase Album</a>
           </div>
         </div>
       </div>
 
       <div class="card">
         <div class="flex">
-          <img class="photo" src= "img/lead_singer.jpg" alt="band image">
+          <img class="photo" src= "img/lead_singer.jpg" alt="image of the lead singer">
           <div class="information">
-            <h1 class="heading">About the band</h1>
+            <h1>About the band</h1>
             <p>Photo booth aliquip pinterest meggings. Sapiente commodo wolf put a bird on it fingerstache gentrify, meh polaroid vegan everyday carry.</p>
           </div>
         </div>
       </div>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
       <ul>
-        <li><a href="#" class="social twitter"><img src= "img/twitter-32.png" alt="">twitter</a></li>
-        <li><a href="#" class="social youtube"><img src= "img/youtube-32.png" alt="">youtube</a></li>
-        <li><a href="#" class="social spotify"><img src= "img/spotify-32.png" alt="">spotify</a></li>
+        <li><a href="#" class="social twitter"><img src="img/twitter-32.png" alt="twitter" aria-hidden="true"></a></li>
+        <li><a href="#" class="social youtube"><img src="img/youtube-32.png" alt="youtube" aria-hidden="true"></a></li>
+        <li><a href="#" class="social spotify"><img src="img/spotify-32.png" alt="spotify" aria-hidden="true"></a></li>
       </ul>
       <p class="copyright">Copyright 2015, Accessible Frog</p>
     </footer>

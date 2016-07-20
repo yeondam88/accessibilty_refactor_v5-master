@@ -1,12 +1,3 @@
-/* Tour page styles */
-
-pre {
-  font-family: 'Open Sans', sans-serif;
-}
-
-tr {
-  padding: 3px;
-}
 
 .heading{
   display: inline-block;
@@ -17,4 +8,14 @@ tr {
   width: 40px;
   height: 0%;
   padding: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0.5rem;
+	font-size:0.7em;
+}
+ th, td {
+   border: 1px solid #ffd;
+   padding:0.5em 1em;
 }

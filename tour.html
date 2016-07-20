@@ -19,12 +19,14 @@
     </ul>
   </div>
 
-  <header>
-    <h1 class="name">accessible frog</h1>
-    <p class="tagline">we make awesome music</p>
-  </header>
+  <header role="banner">
+      <div class="header-text">
+        <h2>Accessible Frog</h2>
+        <p class="sub-header-text">we make awesome music</p>
+      </div>
+    </header>
 
-  <main>
+  <main role="main">
     <div class="card">
       <div class="flex">
         <img class="pick" src="img/guitar_pick.png" alt="This is a guitar pick">
@@ -65,16 +67,13 @@
     </div>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <ul>
-      <li>
-        <a href="#" class="social twitter"><img src="img/twitter-32.png" alt="">twitter</a>
-      </li>
-      <li>
-        <a href="#" class="social youtube"><img src="img/youtube-32.png" alt="">youtube</a>
-      </li>
-      <li>
-        <a href="#" class="social spotify"><img src="img/spotify-32.png" alt="">spotify</a>
+      <ul>
+        <li><a href="#" class="social twitter"><img src="img/twitter-32.png" alt="twitter" aria-hidden="true"></a></li>
+        <li><a href="#" class="social youtube"><img src="img/youtube-32.png" alt="youtube" aria-hidden="true"></a></li>
+        <li><a href="#" class="social spotify"><img src="img/spotify-32.png" alt="spotify" aria-hidden="true"></a></li>
+      </ul>
       </li>
     </ul>
     <p class="copyright">Copyright 2015, Accessible Frog</p>
